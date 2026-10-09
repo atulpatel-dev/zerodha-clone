@@ -18,8 +18,8 @@ function Dashboard() {
             <div className="route-container">
 
                 <Routes>
-                    <Route path='/dashboard' element={<Dashboard />} />
-                    <Route path='/summery' element={<Summery />} />
+                  
+                    <Route path='/' element={<Summery />} />
                     <Route path='/orders' element={<Orders />} />
                     <Route path='/holdings' element={<Holdings />} />
                     <Route path='/positions' element={<Positions />} />

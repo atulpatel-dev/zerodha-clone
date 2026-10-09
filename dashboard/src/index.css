@@ -95,8 +95,7 @@ body {
   background-color: #b1b0b0a2;
   border-radius: 10px;
    margin-bottom: 2px;
-  color: rgb(224, 237, 140);
-  
+  color: rgb(224, 237, 140); 
 }
 
 .dashboard-menu {
@@ -107,29 +106,41 @@ body {
 }
 
 .dashboard-menu .kite-logo img {
-  
   height: 35px;
   background-color:#b1b0b0a2 !important;
    mix-blend-mode: multiply !important;
-  
-  
    margin-left: 25px;
 }
 
-.menus {
+.menu {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 65%;
 }
 
-.menus ul {
+.menu ul {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   width: 70%;
   list-style-type: none;
 
+}
+
+.menu .menu-link {
+  text-decoration: none;
+  color: #dfdf47;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+.menu .menu-link:hover{
+  color: red;
+}
+.menu .menu-link.active {
+  color: #19ebeb;
+  font-weight: 600;
 }
 
 .profile {
