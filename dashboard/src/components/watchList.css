@@ -1,0 +1,27 @@
+.down {
+    color: red;
+}
+
+.up {
+    color: green;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.list li {
+
+    border-bottom: 1px solid black;
+
+}
+
+.list li:hover {
+    background-color: aliceblue;
+    cursor: cell;
+}

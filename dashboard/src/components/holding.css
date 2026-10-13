@@ -1,0 +1,52 @@
+.title {
+    width: 75%;
+    text-align: left;
+}
+
+.order-table {
+    width: 80%;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    line-height: 1.6;
+    border-collapse: collapse;
+
+}
+
+td {
+    padding-left: 15px;
+    text-align: left;
+    color:black;
+    border-collapse: collapse;
+    border-bottom: 1px black;
+}
+tr {
+    border-bottom: 2px solid black;
+}
+
+.text-green {
+    color: lawngreen;
+    /* Green */
+}
+
+.text-red {
+    color: coral
+        /* Red */
+}
+
+
+.holdings-bar th {
+    border-left: 2px solid black;
+    padding: 8px 4px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.holdings-bar {
+    border: 1px solid black;
+    color:black;
+
+}

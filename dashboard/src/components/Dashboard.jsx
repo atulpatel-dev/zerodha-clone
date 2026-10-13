@@ -11,10 +11,7 @@ import Apps from "./Apps"
 function Dashboard() {
     return (
         <div className="dashboard-container">
-            <div className="watchlist-container">
-                <Watchlist />
-            </div>
-            
+            <Watchlist />
             <div className="route-container">
 
                 <Routes>
@@ -27,8 +24,9 @@ function Dashboard() {
                     <Route path='/apps' element={<Apps />} />
 
                 </Routes>
-
+                
             </div>
+            
         </div>
     );
 }

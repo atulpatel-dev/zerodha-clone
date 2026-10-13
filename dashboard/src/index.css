@@ -6,7 +6,7 @@
 body {
   background-color: black;
   margin: 3px;
- 
+
 }
 
 .home-container {
@@ -30,10 +30,10 @@ body {
   justify-content: space-around;
   width: 30%;
   height: 12vh;
-  background-color: #b1b0b0a2;
+  background-color: beige;
   border-radius: 10px;
   margin-bottom: 2px;
-  color: beige;
+  color: black;
 }
 
 .nifty-container {
@@ -52,9 +52,9 @@ body {
 
 }
 
-.nifty{
+.nifty {
   font-size: 14px;
-  color: rgb(224, 237, 140);
+  color: black;
   font-weight: 500;
 }
 
@@ -68,15 +68,15 @@ body {
   font-size: 12px;
 }
 
-.sensex{
+.sensex {
   font-size: 14px;
-  color: rgb(224, 237, 140);
+  color: black;
   font-weight: 500;
 }
 
 .sensex-rate {
   font-size: 12px;
-  color:rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
   font-weight: 600;
 }
 
@@ -88,14 +88,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-left: 1px solid #424242;
+  border-left: 1px solid black;
   margin-left: 2px;
   width: 70%;
   height: 12vh;
-  background-color: #b1b0b0a2;
+  background-color: beige;
   border-radius: 10px;
-   margin-bottom: 2px;
-  color: rgb(224, 237, 140); 
+  margin-bottom: 2px;
+  color: black;
 }
 
 .dashboard-menu {
@@ -107,9 +107,9 @@ body {
 
 .dashboard-menu .kite-logo img {
   height: 35px;
-  background-color:#b1b0b0a2 !important;
-   mix-blend-mode: multiply !important;
-   margin-left: 25px;
+  background-color:beige !important;
+  mix-blend-mode: multiply !important;
+  margin-left: 25px;
 }
 
 .menu {
@@ -130,14 +130,16 @@ body {
 
 .menu .menu-link {
   text-decoration: none;
-  color: #dfdf47;
+  color: black;
   font-weight: 500;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
 }
-.menu .menu-link:hover{
+
+.menu .menu-link:hover {
   color: red;
 }
+
 .menu .menu-link.active {
   color: #19ebeb;
   font-weight: 600;
@@ -177,23 +179,30 @@ body {
 }
 
 .watchlist-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   width: 30%;
   height: 100vh;
-  background-color: #b1b0b0a2;
+  background-color:beige;
   border-radius: 10px;
+}
+
+.watchlist-container input {
+
+  width: 99%;
+  height: 34px;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 0.4rem;
 }
 
 .route-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   border-left: 1px solid #424242;
   margin-left: 2px;
   width: 70%;
   height: 100vh;
-  background-color: #b1b0b0a2;
+  background-color: beige;
   border-radius: 10px;
 }
