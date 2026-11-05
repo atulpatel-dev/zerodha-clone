@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { watchList } from "./data/data";
-import "./watchList.css"
+
 function Watchlist() {
     return (
         <div className="watchlist-container">
@@ -50,7 +50,22 @@ const WatchListItem = ({ stock }) => {
                         {stock.price}
                     </span>
                 </div>
+                {showWatchListActions && <WatchListActions uuid={stock.name} />}
             </div>
+            
         </li>
     )
 }
+
+const WatchListActions = ({ uuid }) => {
+    return (
+        <span className="actions">
+            
+                <button className="buy">Buy</button>
+                <button className="sell">Sell</button>
+                 <button className="chart">Chart</button>
+                <button className="more">more</button>
+            
+        </span>
+    );
+};

@@ -1,5 +1,4 @@
 
-import './holding.css'
 import { positions } from "./data/data"
 
 function Positions() {

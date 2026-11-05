@@ -1,5 +1,5 @@
 
-import './holding.css'
+
 import { holdings } from "./data/data"
 
 function Holdings() {

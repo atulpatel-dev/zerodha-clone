@@ -14,7 +14,7 @@ body {
   overflow: clip;
 }
 
-/* topbar */
+/* topbar watchlist */
 .topbar-container {
   width: 98vw;
   height: 12vh;
@@ -205,4 +205,156 @@ body {
   height: 100vh;
   background-color: beige;
   border-radius: 10px;
+}
+
+/* Holding css */
+
+.title {
+    width: 75%;
+    text-align: left;
+}
+
+.order-table {
+    width: 80%;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    line-height: 1.6;
+    border-collapse: collapse;
+
+}
+
+td {
+    padding-left: 15px;
+    text-align: left;
+    color:black;
+    border-collapse: collapse;
+    border-bottom: 1px black;
+}
+tr {
+    border-bottom: 2px solid black;
+}
+
+.text-green {
+    color: lawngreen;
+    /* Green */
+}
+
+.text-red {
+    color: coral
+        /* Red */
+}
+
+
+.holdings-bar th {
+    border-left: 2px solid black;
+    padding: 8px 4px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.holdings-bar {
+    border: 1px solid black;
+    color:black;
+
+}
+
+/* Watchlist css */
+
+.down {
+    color: red;
+}
+
+.up {
+    color: green;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100%;
+    justify-content: space-between;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.list li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    cursor: cell;
+    padding: 8px 12px;
+    border-bottom: 1px solid black;
+
+}
+
+.list li:hover {
+    background-color: aliceblue;
+    cursor: cell;
+}
+
+.itemInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+/* watchlistActions */
+
+.buy {
+    width: 30px;
+    background-color: green;
+    border: none;
+    color: white;
+    height: 18px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-right: 5px;
+    border-radius: 10px;
+
+}
+
+.sell {
+    width: 30px;
+    background-color: red;
+    border: none;
+    color: white;
+    height: 18px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-right: 5px;
+    border-radius: 10px;
+
+}
+.chart {
+    width: 30px;
+    background-color: lightsalmon;
+    border: none;
+    color: white;
+    height: 18px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-right: 5px;
+    border-radius: 10px;
+
+}
+.more {
+    width: 30px;
+    background-color: lightsteelblue;
+    border: none;
+    color: white;
+    height: 18px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-right: 5px;
+    border-radius: 10px;
+
 }
